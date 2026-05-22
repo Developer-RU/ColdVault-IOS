@@ -28,6 +28,28 @@ ColdVault helps people who want stronger operational security for crypto activit
 - Create encrypted backups and restore app state from backup.
 - Switch app language and theme at runtime.
 
+## Screenshots
+
+### Lock screen
+
+![Lock screen](Screenshots/lock-screen.png)
+
+### Wallet dashboard
+
+![Wallet dashboard](Screenshots/wallet-dashboard.png)
+
+### Sign flow
+
+![Sign flow](Screenshots/sign-flow.png)
+
+### Exchange QR flow
+
+![Exchange QR flow](Screenshots/exchange-qr-flow.png)
+
+### Security and backup settings
+
+![Security and backup settings](Screenshots/settings-security-backup.png)
+
 ## Technical overview
 
 - Language: Swift 5
