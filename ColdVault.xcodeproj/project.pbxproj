@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0844CFB143154903A960DD04 /* AppearanceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932CBC530D3AC8605C182F7 /* AppearanceSettings.swift */; };
+		133136B0F8E64085E7FB887B /* BlockchainNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097C23609C35B37EC8F9FF61 /* BlockchainNetwork.swift */; };
+		1BEA94F38D39F33A00D4599B /* EventLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80BC680672E7A914D93586 /* EventLogView.swift */; };
+		2B7C53EB4B4D4EF9C4B92D13 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CF8F41A099D0E42E48C6C /* EventRow.swift */; };
+		2E5842797B57CC79C29A3739 /* ColdVaultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0767B96D2E4E408093ED4FA /* ColdVaultViewModel.swift */; };
+		3538DD07BA909BF8615F2684 /* ColdVaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2EA68FD9769B8BFB5341A /* ColdVaultApp.swift */; };
+		3F804E4F23A0CC7E0D85A906 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C91DFE1117729CB67DA063 /* GlassCard.swift */; };
+		5F97B7A18675D28CCDA158C8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4310D6EF2B70369AAD65F978 /* RootView.swift */; };
+		61349BA790C8873C36F138FE /* ExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA172DFF928E28B9CA7F1B /* ExchangeView.swift */; };
+		662281DD2999B00553F8F2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4380A6FB2E413A4692B13FD /* Assets.xcassets */; };
+		79E6468949EF18E4F7F85F97 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2DE2EB98F56FE0C1FE1A3 /* Wallet.swift */; };
+		8029B35AACBD004E72E691FA /* QRCodeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C83B19F24536B480938ED0 /* QRCodeImageView.swift */; };
+		8C6A9093D8379E83A0DA54D7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 877E396577407DE73EF305CF /* Localizable.strings */; };
+		99D771C41EBE54036ABE0006 /* SecurityEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5BECB9524E812563BBFF6F /* SecurityEvent.swift */; };
+		A3E354B1C14EE807D6A7C40C /* BackupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F3B8272D709F5B9E63F29A /* BackupService.swift */; };
+		B9111920BA0154D0DE6CE8C2 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42912A26A2914D70FB4E47 /* TransactionView.swift */; };
+		BA795894EF6DF2F9EDE026FE /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B81716D9E463D3D2247249 /* AppSettings.swift */; };
+		CF719B4819C3995A63BEB061 /* NetworkAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FCE824844539A27CA34A62 /* NetworkAdapters.swift */; };
+		D6EEF97FFE5523EAE4586BDC /* WalletService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC70D722632018E98F4126F /* WalletService.swift */; };
+		E4C87FD53E302778765E0008 /* QRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9D0FD32348ED706BB1155 /* QRService.swift */; };
+		F4F6EA81B029D5CF83C82C8E /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586E1E3B3C9EA22D0BAC888 /* QRScannerView.swift */; };
+		F563DDE1915AD0F96ADE55DE /* SecurityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469910014B9B84DDD335AE5 /* SecurityService.swift */; };
+		F90DAE75F1C419C35017FEF1 /* SecuritySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E6E63A49B93E5069DD7C2D /* SecuritySettingsView.swift */; };
+		FC8CF31CB015F8EDC7B9B436 /* TransactionDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71570D8FFF98A049C2DFB52F /* TransactionDraft.swift */; };
+		FE4B6FE1B5F3A5A8293B05E9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2161053722A7EBACBC8D3AD4 /* DashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02E6E63A49B93E5069DD7C2D /* SecuritySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuritySettingsView.swift; sourceTree = "<group>"; };
+		097C23609C35B37EC8F9FF61 /* BlockchainNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainNetwork.swift; sourceTree = "<group>"; };
+		2161053722A7EBACBC8D3AD4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		28F9D0FD32348ED706BB1155 /* QRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRService.swift; sourceTree = "<group>"; };
+		4310D6EF2B70369AAD65F978 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		4BC70D722632018E98F4126F /* WalletService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletService.swift; sourceTree = "<group>"; };
+		56C91DFE1117729CB67DA063 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		58F2EA68FD9769B8BFB5341A /* ColdVaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdVaultApp.swift; sourceTree = "<group>"; };
+		63C83B19F24536B480938ED0 /* QRCodeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeImageView.swift; sourceTree = "<group>"; };
+		64C2DE2EB98F56FE0C1FE1A3 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		71570D8FFF98A049C2DFB52F /* TransactionDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDraft.swift; sourceTree = "<group>"; };
+		75F3B8272D709F5B9E63F29A /* BackupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupService.swift; sourceTree = "<group>"; };
+		7932CBC530D3AC8605C182F7 /* AppearanceSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSettings.swift; sourceTree = "<group>"; };
+		7E5CF8F41A099D0E42E48C6C /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		9BEF761B3B270E860D7B272B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9F80BC680672E7A914D93586 /* EventLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLogView.swift; sourceTree = "<group>"; };
+		B3B81716D9E463D3D2247249 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		BC42912A26A2914D70FB4E47 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		C18664A5E084C0F78510E3F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4380A6FB2E413A4692B13FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5FCE824844539A27CA34A62 /* NetworkAdapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAdapters.swift; sourceTree = "<group>"; };
+		CB5BECB9524E812563BBFF6F /* SecurityEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityEvent.swift; sourceTree = "<group>"; };
+		DAD59F2426CCB8E73BAC4694 /* ColdVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColdVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0767B96D2E4E408093ED4FA /* ColdVaultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdVaultViewModel.swift; sourceTree = "<group>"; };
+		E1BA172DFF928E28B9CA7F1B /* ExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeView.swift; sourceTree = "<group>"; };
+		E469910014B9B84DDD335AE5 /* SecurityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityService.swift; sourceTree = "<group>"; };
+		E586E1E3B3C9EA22D0BAC888 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		F7FAE68038C4E87C20D8A550 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3A45AA6CBE4CC6B67D6E3930 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2161053722A7EBACBC8D3AD4 /* DashboardView.swift */,
+				9F80BC680672E7A914D93586 /* EventLogView.swift */,
+				E1BA172DFF928E28B9CA7F1B /* ExchangeView.swift */,
+				02E6E63A49B93E5069DD7C2D /* SecuritySettingsView.swift */,
+				BC42912A26A2914D70FB4E47 /* TransactionView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5BD0C4CD0F7E10A1D52EA876 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4310D6EF2B70369AAD65F978 /* RootView.swift */,
+				C1A183A00E9A84C6E4FA9AB3 /* Components */,
+				3A45AA6CBE4CC6B67D6E3930 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6809C9B05899F79B662E7F0C = {
+			isa = PBXGroup;
+			children = (
+				F23D8936B523C597AD1D363B /* ColdVault */,
+				9A2F5F31662DBF36C8EDD543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		811A40E2C60AD7E5624428B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4380A6FB2E413A4692B13FD /* Assets.xcassets */,
+				9BEF761B3B270E860D7B272B /* Info.plist */,
+				877E396577407DE73EF305CF /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D8EE009D4CD71FB320409B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7932CBC530D3AC8605C182F7 /* AppearanceSettings.swift */,
+				B3B81716D9E463D3D2247249 /* AppSettings.swift */,
+				097C23609C35B37EC8F9FF61 /* BlockchainNetwork.swift */,
+				CB5BECB9524E812563BBFF6F /* SecurityEvent.swift */,
+				71570D8FFF98A049C2DFB52F /* TransactionDraft.swift */,
+				64C2DE2EB98F56FE0C1FE1A3 /* Wallet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A2F5F31662DBF36C8EDD543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD59F2426CCB8E73BAC4694 /* ColdVault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B265E121A0F061EA8C94119 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				75F3B8272D709F5B9E63F29A /* BackupService.swift */,
+				C5FCE824844539A27CA34A62 /* NetworkAdapters.swift */,
+				28F9D0FD32348ED706BB1155 /* QRService.swift */,
+				E469910014B9B84DDD335AE5 /* SecurityService.swift */,
+				4BC70D722632018E98F4126F /* WalletService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BE7E6C0EF06D1AD9C21E77A4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				58F2EA68FD9769B8BFB5341A /* ColdVaultApp.swift */,
+				E0767B96D2E4E408093ED4FA /* ColdVaultViewModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C1A183A00E9A84C6E4FA9AB3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7E5CF8F41A099D0E42E48C6C /* EventRow.swift */,
+				56C91DFE1117729CB67DA063 /* GlassCard.swift */,
+				63C83B19F24536B480938ED0 /* QRCodeImageView.swift */,
+				E586E1E3B3C9EA22D0BAC888 /* QRScannerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F23D8936B523C597AD1D363B /* ColdVault */ = {
+			isa = PBXGroup;
+			children = (
+				BE7E6C0EF06D1AD9C21E77A4 /* App */,
+				8D8EE009D4CD71FB320409B6 /* Models */,
+				811A40E2C60AD7E5624428B5 /* Resources */,
+				9B265E121A0F061EA8C94119 /* Services */,
+				5BD0C4CD0F7E10A1D52EA876 /* Views */,
+			);
+			path = ColdVault;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2DCF7B6B0335EFDD330185A /* ColdVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE81818A2705BFDE9DD2F9B7 /* Build configuration list for PBXNativeTarget "ColdVault" */;
+			buildPhases = (
+				7E032639122A4F0139E9FAE9 /* Sources */,
+				08AB3A30281520A688046C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColdVault;
+			packageProductDependencies = (
+			);
+			productName = ColdVault;
+			productReference = DAD59F2426CCB8E73BAC4694 /* ColdVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC6E4C7FA60653933EFE233B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 46BD3DD777C274A1A8212FC9 /* Build configuration list for PBXProject "ColdVault" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ru,
+			);
+			mainGroup = 6809C9B05899F79B662E7F0C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9A2F5F31662DBF36C8EDD543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2DCF7B6B0335EFDD330185A /* ColdVault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08AB3A30281520A688046C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662281DD2999B00553F8F2C2 /* Assets.xcassets in Resources */,
+				8C6A9093D8379E83A0DA54D7 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E032639122A4F0139E9FAE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA795894EF6DF2F9EDE026FE /* AppSettings.swift in Sources */,
+				0844CFB143154903A960DD04 /* AppearanceSettings.swift in Sources */,
+				A3E354B1C14EE807D6A7C40C /* BackupService.swift in Sources */,
+				133136B0F8E64085E7FB887B /* BlockchainNetwork.swift in Sources */,
+				3538DD07BA909BF8615F2684 /* ColdVaultApp.swift in Sources */,
+				2E5842797B57CC79C29A3739 /* ColdVaultViewModel.swift in Sources */,
+				FE4B6FE1B5F3A5A8293B05E9 /* DashboardView.swift in Sources */,
+				1BEA94F38D39F33A00D4599B /* EventLogView.swift in Sources */,
+				2B7C53EB4B4D4EF9C4B92D13 /* EventRow.swift in Sources */,
+				61349BA790C8873C36F138FE /* ExchangeView.swift in Sources */,
+				3F804E4F23A0CC7E0D85A906 /* GlassCard.swift in Sources */,
+				CF719B4819C3995A63BEB061 /* NetworkAdapters.swift in Sources */,
+				8029B35AACBD004E72E691FA /* QRCodeImageView.swift in Sources */,
+				F4F6EA81B029D5CF83C82C8E /* QRScannerView.swift in Sources */,
+				E4C87FD53E302778765E0008 /* QRService.swift in Sources */,
+				5F97B7A18675D28CCDA158C8 /* RootView.swift in Sources */,
+				99D771C41EBE54036ABE0006 /* SecurityEvent.swift in Sources */,
+				F563DDE1915AD0F96ADE55DE /* SecurityService.swift in Sources */,
+				F90DAE75F1C419C35017FEF1 /* SecuritySettingsView.swift in Sources */,
+				FC8CF31CB015F8EDC7B9B436 /* TransactionDraft.swift in Sources */,
+				B9111920BA0154D0DE6CE8C2 /* TransactionView.swift in Sources */,
+				79E6468949EF18E4F7F85F97 /* Wallet.swift in Sources */,
+				D6EEF97FFE5523EAE4586BDC /* WalletService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		877E396577407DE73EF305CF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18664A5E084C0F78510E3F0 /* en */,
+				F7FAE68038C4E87C20D8A550 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E63B43EC505DEA2A2C39ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7805968DA2CB6F0C7B1CE053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6228C97E8E1AE3F96EAC782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VK5PTZ6599;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ColdVault/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldvault.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EBC01972090C5072D8821FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VK5PTZ6599;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ColdVault/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldvault.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46BD3DD777C274A1A8212FC9 /* Build configuration list for PBXProject "ColdVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7805968DA2CB6F0C7B1CE053 /* Debug */,
+				74E63B43EC505DEA2A2C39ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE81818A2705BFDE9DD2F9B7 /* Build configuration list for PBXNativeTarget "ColdVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6228C97E8E1AE3F96EAC782 /* Debug */,
+				EBC01972090C5072D8821FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC6E4C7FA60653933EFE233B /* Project object */;
+}

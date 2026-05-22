@@ -1,0 +1,134 @@
+"tab.wallet" = "Wallet";
+"tab.sign" = "Sign";
+"tab.exchange" = "Exchange";
+"tab.settings" = "Settings";
+
+"common.ok" = "OK";
+"common.done" = "Done";
+"common.cancel" = "Cancel";
+"common.delete" = "Delete";
+"common.error" = "Error";
+"common.run" = "Run";
+
+"root.locked" = "ColdVault is locked";
+"root.unlock" = "Unlock";
+
+"dashboard.title" = "ColdVault";
+"dashboard.active_wallet" = "Active Wallet";
+"dashboard.balance" = "Balance";
+"dashboard.no_wallets" = "No wallets yet";
+"dashboard.create_wallet" = "Create Wallet";
+"dashboard.create_single" = "Create";
+"dashboard.create_modern_all" = "Create all modern wallets";
+"dashboard.create_modern_note" = "Bulk modern wallet creation is available on iPhone only.";
+"dashboard.wallet_name" = "Name";
+"dashboard.wallets" = "Wallets";
+"dashboard.wallets_hint" = "Create your first wallet";
+"dashboard.events" = "Event Log";
+"dashboard.events_empty" = "No events yet";
+"dashboard.events.view_all" = "View full action log";
+"dashboard.events.full_title" = "All Actions";
+"dashboard.confirm_delete_wallet_title" = "Delete wallet?";
+"dashboard.confirm_delete_wallet_message" = "Wallet and its local data will be removed from the app.";
+
+"transaction.create_and_sign" = "Create and Sign";
+"transaction.to_address" = "Recipient (address)";
+"transaction.amount" = "Amount";
+"transaction.comment" = "Comment";
+"transaction.sign_offline" = "Sign Offline";
+"transaction.export" = "Export Signed Data";
+"transaction.sign_first" = "Sign a transaction first";
+"exchange.send_qr" = "Send via QR";
+"exchange.source" = "Source";
+"exchange.prepare" = "Prepare exchange";
+"exchange.import_scan" = "Import by scanning";
+"exchange.scan_qr" = "Scan QR";
+"exchange.device.iphone" = "iPhone";
+"exchange.device.simulator" = "Simulator";
+
+"settings.security" = "Security";
+"settings.biometric_lock" = "Biometric Lock";
+"settings.secure_enclave" = "Secure Enclave (if available)";
+"settings.network" = "Network";
+"settings.theme" = "Theme";
+"settings.language" = "Language";
+"settings.theme.system" = "System";
+"settings.theme.light" = "Light";
+"settings.theme.dark" = "Dark";
+"settings.language.system" = "—";
+"settings.language.ru" = "Russian";
+"settings.language.en" = "English";
+
+"settings.backup" = "Backup";
+"settings.backup.passphrase" = "Passphrase for encryption";
+"settings.backup.create_encrypted" = "Create encrypted backup";
+"settings.backup.export" = "Export backup";
+"settings.backup.import_title" = "Import encrypted backup";
+"settings.backup.import_file" = "Import from file";
+"settings.backup.restore" = "Restore backup";
+"settings.logs" = "Logs";
+"settings.logs.auto_clear" = "Auto-clear logs on launch";
+"settings.logs.clear_now" = "Clear logs";
+
+"event.type.key_created" = "Key created";
+"event.type.wallet_deleted" = "Wallet deleted";
+"event.type.data_sent" = "Data sent";
+"event.type.data_received" = "Data received";
+"event.type.signature_done" = "Signature completed";
+"event.type.biometric_success" = "Biometric check passed";
+"event.type.backup_created" = "Backup created";
+
+"vm.auth.unlock_reason" = "Unlock ColdVault";
+"vm.exchange.status.waiting" = "Waiting for transfer";
+"vm.exchange.status.qr_ready" = "QR code is ready to transfer";
+"vm.exchange.status.success" = "Exchange completed: %@ -> current device";
+
+"vm.error.modern_wallets_iphone_only" = "Bulk modern wallet creation is available on iPhone only.";
+"vm.error.feature_iphone_only" = "This feature is available on iPhone only.";
+"vm.error.modern_wallets_all_created" = "All modern wallets are already created.";
+"vm.error.select_wallet" = "Select a wallet";
+"vm.error.no_selected_wallet" = "No wallet selected";
+"vm.error.payload_prepare_failed" = "Failed to prepare transfer data";
+"vm.error.invalid_qr_payload" = "Invalid QR data";
+"vm.error.backup_restore_failed" = "Failed to restore backup: %@";
+
+"vm.event.access_confirmed" = "Access confirmed";
+"vm.event.wallet_created" = "Wallet created: %@";
+"vm.event.modern_wallets_created" = "Modern wallets created: %@";
+"vm.event.wallet_deleted" = "Wallet deleted: %@";
+"vm.event.transaction_signed" = "Transaction signed for %@";
+"vm.event.qr_payload_sent" = "QR transfer data sent";
+"vm.event.payload_received_type" = "Received data type: %@";
+"vm.event.backup_created" = "Encrypted backup created";
+"vm.event.backup_restored" = "State restored from encrypted backup";
+
+"service.security.key_generation_failed" = "Failed to generate key";
+"service.security.key_not_found" = "Key not found";
+"service.security.signing_failed" = "Failed to sign data";
+"service.security.keychain_error" = "Keychain error: %d";
+"service.security.biometrics_unavailable" = "Biometrics is unavailable";
+
+"service.backup.invalid_passphrase" = "Enter a passphrase to encrypt backup";
+"service.backup.encoding_failed" = "Failed to create encrypted backup";
+"service.backup.invalid_payload" = "Invalid encrypted backup data";
+
+"service.wallet.encoding_error" = "Failed to encode data";
+"service.wallet.decoding_error" = "Failed to decode saved data";
+
+"service.network.adapter_not_found" = "Network adapter not found";
+"service.network.export_error" = "Failed to export transaction for network";
+
+"network.bitcoin" = "Bitcoin";
+"network.litecoin" = "Litecoin";
+"network.ethereum" = "Ethereum";
+"network.bsc" = "BNB Smart Chain";
+"network.polygon" = "Polygon";
+"network.avalanche" = "Avalanche";
+"network.arbitrum" = "Arbitrum";
+"network.optimism" = "Optimism";
+"network.tron" = "TRON";
+"network.solana" = "Solana";
+"network.ton" = "TON";
+"network.testnet" = "Test Network";
+"network.mainnet" = "Main Network";
+

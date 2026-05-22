@@ -1,0 +1,17 @@
+# Default owners for the whole repository
+* @Developer-RU
+
+# Core app and architecture
+/ColdVault/App/ @Developer-RU
+/ColdVault/Services/ @Developer-RU
+/ColdVault/Models/ @Developer-RU
+
+# UI and UX
+/ColdVault/Views/ @Developer-RU
+
+# Project and docs
+/project.yml @Developer-RU
+/README.md @Developer-RU
+/CONTRIBUTING.md @Developer-RU
+/SECURITY.md @Developer-RU
+/SUPPORT.md @Developer-RU

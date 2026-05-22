@@ -1,0 +1,134 @@
+"tab.wallet" = "Кошелек";
+"tab.sign" = "Подпись";
+"tab.exchange" = "Обмен";
+"tab.settings" = "Настройки";
+
+"common.ok" = "OK";
+"common.done" = "Готово";
+"common.cancel" = "Отмена";
+"common.delete" = "Удалить";
+"common.error" = "Ошибка";
+"common.run" = "Выполнить";
+
+"root.locked" = "ColdVault заблокирован";
+"root.unlock" = "Разблокировать";
+
+"dashboard.title" = "ColdVault";
+"dashboard.active_wallet" = "Активный кошелек";
+"dashboard.balance" = "Баланс";
+"dashboard.no_wallets" = "Кошельков пока нет";
+"dashboard.create_wallet" = "Создать кошелек";
+"dashboard.create_single" = "Создать";
+"dashboard.create_modern_all" = "Создать все современные";
+"dashboard.create_modern_note" = "Массовое создание современных кошельков доступно только на iPhone.";
+"dashboard.wallet_name" = "Название";
+"dashboard.wallets" = "Кошельки";
+"dashboard.wallets_hint" = "Создайте первый кошелек";
+"dashboard.events" = "Журнал событий";
+"dashboard.events_empty" = "Событий пока нет";
+"dashboard.events.view_all" = "Смотреть весь журнал действий";
+"dashboard.events.full_title" = "Все действия";
+"dashboard.confirm_delete_wallet_title" = "Удалить кошелек?";
+"dashboard.confirm_delete_wallet_message" = "Кошелек и его локальные данные будут удалены из приложения.";
+
+"transaction.create_and_sign" = "Создать и подписать";
+"transaction.to_address" = "Кому (адрес)";
+"transaction.amount" = "Сумма";
+"transaction.comment" = "Комментарий";
+"transaction.sign_offline" = "Подписать офлайн";
+"transaction.export" = "Экспорт подписанных данных";
+"transaction.sign_first" = "Сначала подпишите транзакцию";
+"exchange.send_qr" = "Отправка через QR";
+"exchange.source" = "Источник";
+"exchange.prepare" = "Подготовить обмен";
+"exchange.import_scan" = "Импорт через сканирование";
+"exchange.scan_qr" = "Сканировать QR";
+"exchange.device.iphone" = "iPhone";
+"exchange.device.simulator" = "Симулятор";
+
+"settings.security" = "Безопасность";
+"settings.biometric_lock" = "Блокировка по биометрии";
+"settings.secure_enclave" = "Secure Enclave (если доступен)";
+"settings.network" = "Сеть";
+"settings.theme" = "Тема";
+"settings.language" = "Язык";
+"settings.theme.system" = "Системная";
+"settings.theme.light" = "Светлая";
+"settings.theme.dark" = "Темная";
+"settings.language.system" = "—";
+"settings.language.ru" = "Русский";
+"settings.language.en" = "Английский";
+
+"settings.backup" = "Резервное копирование";
+"settings.backup.passphrase" = "Парольная фраза для шифрования";
+"settings.backup.create_encrypted" = "Сформировать зашифрованную копию";
+"settings.backup.export" = "Экспорт копии";
+"settings.backup.import_title" = "Импорт зашифрованной копии";
+"settings.backup.import_file" = "Импорт из файла";
+"settings.backup.restore" = "Восстановить из копии";
+"settings.logs" = "Журнал";
+"settings.logs.auto_clear" = "Автоочистка журнала при запуске";
+"settings.logs.clear_now" = "Очистить журнал";
+
+"event.type.key_created" = "Ключ создан";
+"event.type.wallet_deleted" = "Кошелек удален";
+"event.type.data_sent" = "Данные отправлены";
+"event.type.data_received" = "Данные получены";
+"event.type.signature_done" = "Подпись выполнена";
+"event.type.biometric_success" = "Биометрия подтверждена";
+"event.type.backup_created" = "Резервная копия создана";
+
+"vm.auth.unlock_reason" = "Разблокировать ColdVault";
+"vm.exchange.status.waiting" = "Ожидание обмена";
+"vm.exchange.status.qr_ready" = "QR готов к передаче";
+"vm.exchange.status.success" = "Обмен успешен: %@ -> текущее устройство";
+
+"vm.error.modern_wallets_iphone_only" = "Массовое создание современных кошельков доступно только на iPhone.";
+"vm.error.feature_iphone_only" = "Эта функция доступна только на iPhone.";
+"vm.error.modern_wallets_all_created" = "Все современные кошельки уже созданы.";
+"vm.error.select_wallet" = "Выберите кошелек";
+"vm.error.no_selected_wallet" = "Нет выбранного кошелька";
+"vm.error.payload_prepare_failed" = "Не удалось подготовить данные для передачи";
+"vm.error.invalid_qr_payload" = "Некорректные данные QR";
+"vm.error.backup_restore_failed" = "Не удалось восстановить резервную копию: %@";
+
+"vm.event.access_confirmed" = "Доступ подтвержден";
+"vm.event.wallet_created" = "Создан кошелек: %@";
+"vm.event.modern_wallets_created" = "Создано современных кошельков: %@";
+"vm.event.wallet_deleted" = "Удален кошелек: %@";
+"vm.event.transaction_signed" = "Подписана транзакция на %@";
+"vm.event.qr_payload_sent" = "Отправлены данные через QR";
+"vm.event.payload_received_type" = "Получены данные типа: %@";
+"vm.event.backup_created" = "Сформирована зашифрованная резервная копия";
+"vm.event.backup_restored" = "Состояние восстановлено из зашифрованной копии";
+
+"service.security.key_generation_failed" = "Не удалось создать ключ";
+"service.security.key_not_found" = "Ключ не найден";
+"service.security.signing_failed" = "Не удалось выполнить подпись";
+"service.security.keychain_error" = "Ошибка Keychain: %d";
+"service.security.biometrics_unavailable" = "Биометрия недоступна";
+
+"service.backup.invalid_passphrase" = "Введите парольную фразу для шифрования копии";
+"service.backup.encoding_failed" = "Не удалось сформировать зашифрованную копию";
+"service.backup.invalid_payload" = "Некорректные данные зашифрованной копии";
+
+"service.wallet.encoding_error" = "Не удалось сериализовать данные";
+"service.wallet.decoding_error" = "Не удалось прочитать сохраненные данные";
+
+"service.network.adapter_not_found" = "Адаптер сети не найден";
+"service.network.export_error" = "Не удалось экспортировать транзакцию для сети";
+
+"network.bitcoin" = "Bitcoin";
+"network.litecoin" = "Litecoin";
+"network.ethereum" = "Ethereum";
+"network.bsc" = "BNB Smart Chain";
+"network.polygon" = "Polygon";
+"network.avalanche" = "Avalanche";
+"network.arbitrum" = "Arbitrum";
+"network.optimism" = "Optimism";
+"network.tron" = "TRON";
+"network.solana" = "Solana";
+"network.ton" = "TON";
+"network.testnet" = "Тестовая сеть";
+"network.mainnet" = "Основная сеть";
+
