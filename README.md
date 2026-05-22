@@ -32,11 +32,11 @@ ColdVault helps people who want stronger operational security for crypto activit
 
 <table>
    <tr>
-      <td><img src="Screenshots/lock-screen.png" alt="Lock screen" width="180" /></td>
-      <td><img src="Screenshots/wallet-dashboard.png" alt="Wallet dashboard" width="180" /></td>
-      <td><img src="Screenshots/sign-flow.png" alt="Sign flow" width="180" /></td>
-      <td><img src="Screenshots/exchange-qr-flow.png" alt="Exchange QR flow" width="180" /></td>
-      <td><img src="Screenshots/settings-security-backup.png" alt="Security and backup settings" width="180" /></td>
+      <td><img src="Screenshots/lock-screen.png" alt="Lock screen" width="180" height="391" /></td>
+      <td><img src="Screenshots/wallet-dashboard.png" alt="Wallet dashboard" width="180" height="391" /></td>
+      <td><img src="Screenshots/sign-flow.png" alt="Sign flow" width="180" height="391" /></td>
+      <td><img src="Screenshots/exchange-qr-flow.png" alt="Exchange QR flow" width="180" height="391" /></td>
+      <td><img src="Screenshots/settings-security-backup.png" alt="Security and backup settings" width="180" height="391" /></td>
    </tr>
    <tr>
       <td align="center">Lock screen</td>
