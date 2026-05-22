@@ -73,6 +73,8 @@ ColdVault helps people who want stronger operational security for crypto activit
 
 Note: ColdVault is educational/prototype software and not financial advice. Always perform independent security review before production use.
 
+Important: This app has not been fully tested and its operation is not guaranteed. If it works successfully for you, please share feedback by opening an issue in this repository.
+
 ## Supported devices
 
 - iPhone (primary target)
