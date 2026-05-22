@@ -30,25 +30,22 @@ ColdVault helps people who want stronger operational security for crypto activit
 
 ## Screenshots
 
-### Lock screen
-
-![Lock screen](Screenshots/lock-screen.png)
-
-### Wallet dashboard
-
-![Wallet dashboard](Screenshots/wallet-dashboard.png)
-
-### Sign flow
-
-![Sign flow](Screenshots/sign-flow.png)
-
-### Exchange QR flow
-
-![Exchange QR flow](Screenshots/exchange-qr-flow.png)
-
-### Security and backup settings
-
-![Security and backup settings](Screenshots/settings-security-backup.png)
+<table>
+   <tr>
+      <td><img src="Screenshots/lock-screen.png" alt="Lock screen" width="180" /></td>
+      <td><img src="Screenshots/wallet-dashboard.png" alt="Wallet dashboard" width="180" /></td>
+      <td><img src="Screenshots/sign-flow.png" alt="Sign flow" width="180" /></td>
+      <td><img src="Screenshots/exchange-qr-flow.png" alt="Exchange QR flow" width="180" /></td>
+      <td><img src="Screenshots/settings-security-backup.png" alt="Security and backup settings" width="180" /></td>
+   </tr>
+   <tr>
+      <td align="center">Lock screen</td>
+      <td align="center">Wallet dashboard</td>
+      <td align="center">Sign flow</td>
+      <td align="center">Exchange QR flow</td>
+      <td align="center">Security and backup</td>
+   </tr>
+</table>
 
 ## Technical overview
 
