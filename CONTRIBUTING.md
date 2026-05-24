@@ -33,6 +33,7 @@ Thank you for your interest in improving ColdVault.
 - New behavior is tested manually on simulator and, when relevant, on a device.
 - Localization keys are added for both English and Russian.
 - No personal data, local logs, or generated artifacts are included.
+- `CHANGELOG.md` is updated for user-visible changes (or explicitly marked as not required).
 - PR description explains what changed and why.
 
 ## Commit message suggestions
@@ -52,3 +53,10 @@ Please use the bug report template and include:
 - Steps to reproduce
 - Expected vs actual behavior
 - Screenshots or logs (without sensitive data)
+
+## Release-aware contributions
+
+If your change impacts end users, include:
+
+- Proposed changelog entry text.
+- Any upgrade notes or behavior changes that should appear in release notes.

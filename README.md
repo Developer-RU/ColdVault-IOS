@@ -4,8 +4,24 @@
 ![Swift](https://img.shields.io/badge/Swift-5.0-orange)
 ![Architecture](https://img.shields.io/badge/architecture-MVVM-5C6BC0)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![CI](https://img.shields.io/github/actions/workflow/status/Developer-RU/ColdVault-IOS/ci.yml?branch=main&label=CI)
 
 ColdVault is an iOS-first offline-oriented crypto wallet companion focused on secure key handling, transaction signing, and QR-based air-gapped data transfer.
+
+## Project status
+
+Current maturity: educational/prototype implementation.
+
+ColdVault is suitable for architecture exploration, secure-flow experimentation, and contribution workflows. It should not be treated as audited production wallet software.
+
+## Documentation hub
+
+- Wiki home: `docs/wiki/Home.md`
+- Changelog: `CHANGELOG.md`
+- Release process: `RELEASE.md`
+- Security policy: `SECURITY.md`
+- Contributing guide: `CONTRIBUTING.md`
+- Support guide: `SUPPORT.md`
 
 ## Why this app exists
 
@@ -157,6 +173,17 @@ Issue and PR workflows are standardized with templates:
 ## Security policy
 
 For vulnerability reporting and coordinated disclosure guidance, see `SECURITY.md`.
+
+## Releases and change history
+
+- Release process and checklist: `RELEASE.md`
+- Version and change history: `CHANGELOG.md`
+
+## Wiki
+
+A detailed wiki source is maintained in `docs/wiki` and can be published to the GitHub Wiki.
+
+Recommended start page: `docs/wiki/Home.md`.
 
 ## Roadmap ideas
 

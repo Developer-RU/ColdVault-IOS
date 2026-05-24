@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security vulnerability report
-    url: ./../../SECURITY.md
+    url: https://github.com/Developer-RU/ColdVault-IOS/blob/main/SECURITY.md
     about: Please review SECURITY.md and report vulnerabilities privately.
   - name: Support and usage help
-    url: ./../../SUPPORT.md
+    url: https://github.com/Developer-RU/ColdVault-IOS/blob/main/SUPPORT.md
     about: Read support and troubleshooting guidance.
